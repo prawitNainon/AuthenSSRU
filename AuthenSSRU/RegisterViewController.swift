@@ -19,6 +19,8 @@ class RegisterViewController: UIViewController {
     } //Main Method
     
     
+    @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+    }
     
     @IBAction func BackButton(_ sender: UIBarButtonItem) {
         

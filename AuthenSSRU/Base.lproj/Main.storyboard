@@ -139,12 +139,15 @@
                         <viewLayoutGuide key="safeArea" id="D3f-Cq-D7l"/>
                     </view>
                     <connections>
+                        <outlet property="nameTextField" destination="bXz-Tw-Qjp" id="ziU-rI-zb9"/>
+                        <outlet property="passwordTextField" destination="h8L-fw-VZZ" id="cg8-JA-tcE"/>
+                        <outlet property="userTextField" destination="QSU-s5-G6S" id="l7s-Ao-Xm9"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backMain" id="GV2-U9-WWO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rbt-03-jwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="849" y="134"/>
+            <point key="canvasLocation" x="847.82608695652175" y="133.92857142857142"/>
         </scene>
     </scenes>
     <resources>

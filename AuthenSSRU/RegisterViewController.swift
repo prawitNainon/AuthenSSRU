@@ -35,8 +35,12 @@ class RegisterViewController: UIViewController {
         print("You  Click  Upioad")
         
         let name = nameTextField.text!
+        let user = userTextField.text!
+        let password = passwordTextField.text!
         
-        print("name =\(name)")
+        print("name = \(name)")
+        print("user= \(user)")
+        print("password= \(password)")
     }
     
     @IBAction func BackButton(_ sender: UIBarButtonItem) {

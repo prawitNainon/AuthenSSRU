@@ -20,12 +20,15 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+        
+        print("You Click Upioad")
+        
     }
     
     @IBAction func BackButton(_ sender: UIBarButtonItem) {
         
         print("You Click Back")
-        performSegue(withIdentifier: "BackMain" ,  sender: self)
+        performSegue(withIdentifier: "backMain" ,  sender: self)
     }
     
     
